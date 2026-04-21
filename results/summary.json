@@ -1,0 +1,22 @@
+{
+  "num_test_inputs": 10000,
+  "num_disagreements": 1063,
+  "disagreement_rate": 0.1063,
+  "num_visualizations_saved": 5,
+  "disagreement_one_correct": 894,
+  "disagreement_both_wrong": 169,
+  "model_a_coverage": {
+    "covered_neurons": 11729,
+    "total_neurons": 18944,
+    "coverage": 0.619140625
+  },
+  "model_b_coverage": {
+    "covered_neurons": 17801,
+    "total_neurons": 18944,
+    "coverage": 0.9396642736486487
+  },
+  "notes": [
+    "This is a PyTorch differential-testing pipeline inspired by DeepXplore.",
+    "It reports prediction disagreements and simple neuron coverage over ReLU activations."
+  ]
+}
